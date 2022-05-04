@@ -1,0 +1,11 @@
+@misc{cryptoeprint:2022:389,
+    author       = {Suparna Kundu and
+		    Jan-Pieter D’Anvers and
+		    Michiel Van Beirendonck and
+		    Angshuman Karmakar and
+		    Ingrid Verbauwhede},
+    title        = {Higher-order masked Saber},
+    howpublished = {Cryptology ePrint Archive, Report 2022/389},
+    year         = {2022},
+    note         = {\url{https://ia.cr/2022/389}},
+}
