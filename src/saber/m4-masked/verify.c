@@ -133,7 +133,7 @@ static void reduced_SecAnd(uint8_t b[SABER_SHARES],uint32_t t_w1[SABER_EP][SABER
 	}
 	
 	// Secure And for 10 bits of key contain share of ciphertext
-	for(i=1;i<SABER_L;i++)
+	for(i=0;i<SABER_L;i++)
 	{
 		for(j=0;j<(SABER_N/32);j++)
 		{
@@ -146,7 +146,7 @@ static void reduced_SecAnd(uint8_t b[SABER_SHARES],uint32_t t_w1[SABER_EP][SABER
 	
 	for(l=1;l<SABER_EP;l++)
 	{
-		for(i=1;i<SABER_L;i++)
+		for(i=0;i<SABER_L;i++)
 		{
 			for(j=0;j<(SABER_N/32);j++)
 			{
@@ -165,7 +165,7 @@ static void reduced_SecAnd(uint8_t b[SABER_SHARES],uint32_t t_w1[SABER_EP][SABER
 	}
 	
     //Performed Secure And on previous two results
-	for(i=1;i<SABER_L;i++)
+	for(i=0;i<SABER_L;i++)
 	{
 		for(j=0;j<(SABER_N/32);j++)
 		{
