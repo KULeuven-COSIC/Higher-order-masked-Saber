@@ -57,7 +57,9 @@ cd pqm4
 
 Benchmarks can then be found in the [benchmarks](./pqm4/benchmarks) folder.
 
-Note that the number of shares can be changed by setting [`SABER_SHARES`](./src/saber/m4-masked/SABER_params.h).
+The number of shares can be changed by setting [`SABER_SHARES`](./src/saber/m4-masked/SABER_params.h).
+
+Please note that, these implementations have been published for demonstration and benchmarking and have not gone through any leakage assessment.
 
 ## Bibliography
 
